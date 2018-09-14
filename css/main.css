@@ -1,3 +1,6 @@
+/*General Styles for Elements throughout the website.  This includes the body backgound texts headers and 
+paragraphs. right now this is mostly for blocking out the needs of the website. */
+
 body {
     background-color: #ff9999;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +54,8 @@ p {
     text-align: center;
 }
 
+/* id selectors */
+
 #menu {
   background: grey;
   overflow: auto;
@@ -59,6 +64,10 @@ p {
   margin: 0 auto;
   padding: 0;
 }
+
+/* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to 
+change these to id or elements, or combinse some similar styles together under new classes after figuring out 
+floats and colums.  */
 
 .combo {
   background: white;
