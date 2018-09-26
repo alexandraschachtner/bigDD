@@ -13,11 +13,13 @@
     <!-- End header -->
 
     <!-- Start Menu -->
-<div id="menu">
+<!--menu div is the container for all menu blocks, combos, drinks, sweet and salt.  Includes the  headder for Donuts and Price,
+but not sure why "Donuts $3" will not clear-->
+<div id="menu" class="clearfix">
     <h3>Menu and Breakfast Combos</h3>
 
-    <!-- Breakfast Combos and Drink Options inside Menu -->
-
+    <!-- Breakfast Combos and Drink Options, float left and right respectively. Reactive to no floats when in mobile view and
+  side by side when in larger screeens -->
   <div class="combo">
     <h4>Breakfast Combos</h4>
     <ul>
@@ -38,9 +40,11 @@
     </ul>
   </div>
 
-    <!-- Classic Donut Options inside Menu -->
+    <!-- Classic Donut Options same styling as combos and drinks but separate section of the menu-->
+
     <div class="dount">
       <h4>Donuts $3</h4>
+    </div>
 
       <div class="sweet">
         <h4>Classic Sweet</h4>
@@ -60,7 +64,6 @@
           <ul>
       </div>
 
-    </div>
 </div>
 
 <footer>

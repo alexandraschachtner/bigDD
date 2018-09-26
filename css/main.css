@@ -1,4 +1,4 @@
-/*General Styles for Elements throughout the website.  This includes the body backgound texts headers and 
+/*General Styles for Elements throughout the website.  This includes the body backgound texts headers and
 paragraphs. right now this is mostly for blocking out the needs of the website. */
 
 body {
@@ -54,6 +54,8 @@ p {
     text-align: center;
 }
 
+q {}
+
 /* id selectors */
 
 #menu {
@@ -65,27 +67,47 @@ p {
   padding: 0;
 }
 
-/* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to 
-change these to id or elements, or combinse some similar styles together under new classes after figuring out 
+/* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to
+change these to id or elements, or combinse some similar styles together under new classes after figuring out
 floats and colums.  */
 
 .combo {
   background: white;
   width: 46%;
-
+  float: left;
 }
 
 .drink {
   background: white;
   width: 46%;
+  float: right;
 }
 
 .sweet {
   background: white;
   width: 46%;
+  float: left;
 }
 
 .salt {
   background: white;
   width: 46%;
+  float: right;
+}
+
+
+
+
+/* Media, making menu reactive to all screens*/
+
+@media (min-width: 768px){
+}
+
+@media (max-width: 4000px){
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
