@@ -3,6 +3,12 @@ paragraphs. right now this is mostly for blocking out the needs of the website. 
 
 body {
     background-color: #ff9999;
+    background-image: url("donut.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 0 auto;
@@ -10,10 +16,12 @@ body {
   }
 
 header {
+  position: top;
   width: 100%;
   background-color: #ffe6e6;
   margin: 0 auto;
   padding: 0;
+  z-index: 0;
 }
 
 h1 {
@@ -59,16 +67,24 @@ q {}
 /* id selectors */
 
 #menu {
-  background: grey;
+  background: rgba(128,128,128,.7);
   overflow: auto;
   width: 75%;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
 }
 
 /* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to
 change these to id or elements, or combinse some similar styles together under new classes after figuring out
 floats and colums.  */
+
+.topnavigation{
+  position: topnavigation;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  z-index: 1;
+}
 
 .combo {
   background: white;
