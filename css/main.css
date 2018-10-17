@@ -1,52 +1,58 @@
+
 /*General Styles for Elements throughout the website.  This includes the body backgound texts headers and
 paragraphs. right now this is mostly for blocking out the needs of the website. */
-
+/*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: #ff9999;
-    background-image: url("donut.jpg") ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: ;
+    background-color: white ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 0 auto;
     padding: 0;
   }
 
-header {
-  position: top;
-  width: 100%;
-  background-color: #ffe6e6;
-  margin: 0 auto;
-  padding: 0;
-  z-index: 0;
-}
+  header {
+    width: 100%;
+    background-image: url("../img/donut.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #FF0080;
+    background-blend-mode: lighten;
+    margin: 0;
+    padding-top: 8em;
+  }
 
 h1 {
-    color: white;
+    border-radius: 25px;
+    background: white;
+    font-size: 64px;
+    color: black;
     text-align: center;
-    text-shadow: 2px 1px black;
-    text-transform: uppercase;
+    text-shadow: 4px 2px rgba(0, 255, 255, .5);
     padding: 0;
     margin: 0;
 }
 
 h2 {
-    color: white;
+    color: black;
     text-align: center;
-    text-shadow: 2px 1px black;
+    text-decoration: overline;
     text-transform: uppercase;
     padding: 0;
     margin: 0;
 }
 
 h3 {
-    color: white;
+    color: #FF0080;
     text-align: center;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px #00FFFF;
     text-transform: uppercase;
+    background: rgba(255,255,255,.7);
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    padding: 3px;
 }
 
 h4 {
@@ -62,56 +68,91 @@ p {
     text-align: center;
 }
 
-q {}
+div {
+  background: #40E0D0;
+  overflow: auto;
+  width: 90%;
+  margin: auto;
+  padding: 3px;
+}
+
+nav{
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+textarea{
+  width: 80%;
+  height: 200px;
+}
+
+
 
 /* id selectors */
+#navbar{
 
-#menu {
-  background: rgba(128,128,128,.7);
-  overflow: auto;
-  width: 75%;
-  margin: auto;
-  padding: 0;
 }
 
 /* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to
 change these to id or elements, or combinse some similar styles together under new classes after figuring out
 floats and colums.  */
 
-.topnavigation{
+/* .topnavigation{
   position: topnavigation;
   width: 100%;
   margin: auto;
   padding: 0;
   z-index: 1;
-}
+} */
 
 .combo {
   background: white;
-  width: 46%;
 }
 
 .drink {
   background: white;
-  width: 46%;
 }
 
 .sweet {
   background: white;
-  width: 46%;
 }
 
 .salt {
   background: white;
-  width: 46%;
 }
 
+.contact{
+  width: 80%;
+}
 
 /* Media, making menu reactive to all screens*/
 
-@media (min-width: 768px){
-  .combo,
-  .drink{
+/* @media (min-width: 768px){
+    .combo,
+    .drink{
     display: inline-block;
     margin: 10px
     padding: 5px;
