@@ -20,7 +20,7 @@ body {
     background-color: #FF0080;
     background-blend-mode: lighten;
     margin: 0;
-    padding-top: 8em;
+    padding-top: 300px;
   }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     color: black;
-    text-align: center;
+    text-align: left;
     text-decoration: overline;
     text-transform: uppercase;
     padding: 0;
@@ -45,7 +45,7 @@ h2 {
 
 h3 {
     color: #FF0080;
-    text-align: center;
+    text-align: left;
     text-shadow: 2px 1px #00FFFF;
     text-transform: uppercase;
     background: rgba(255,255,255,.7);
@@ -109,6 +109,10 @@ textarea{
   height: 200px;
 }
 
+img{
+  padding: 10px;
+}
+
 
 
 /* id selectors */
@@ -128,24 +132,12 @@ floats and colums.  */
   z-index: 1;
 } */
 
-.combo {
-  background: white;
+.thedlow{
+  float:left;
 }
 
-.drink {
-  background: white;
-}
-
-.sweet {
-  background: white;
-}
-
-.salt {
-  background: white;
-}
-
-.contact{
-  width: 80%;
+.coffeeoweek{
+  float:right;
 }
 
 /* Media, making menu reactive to all screens*/
