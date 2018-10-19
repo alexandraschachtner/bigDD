@@ -3,7 +3,7 @@
 paragraphs. right now this is mostly for blocking out the needs of the website. */
 /*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: white ;
+    background-color: #40E0D0 ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 0 auto;
@@ -24,8 +24,8 @@ body {
   }
 
 h1 {
-    border-radius: 25px;
-    background: white;
+  /*  border-radius: 25px;
+    background: white; */
     font-size: 64px;
     color: black;
     text-align: center;
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     color: black;
-    text-align: left;
+    text-align: cen;
     text-decoration: overline;
     text-transform: uppercase;
     padding: 0;
@@ -44,6 +44,42 @@ h2 {
 }
 
 h3 {
+    color: #FF0080;
+    text-align: center;
+    text-shadow: 2px 1px #00FFFF;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.7);
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    padding: 3px;
+}
+
+h4 {
+  color: #FF0080;
+  text-align: left;
+  text-shadow: 2px 1px #00FFFF;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.7);
+  overflow: auto;
+  width: 90%;
+  margin: auto;
+  padding: 3px;
+}
+
+h5{
+    color: #FF0080;
+    text-align: right;
+    text-shadow: 2px 1px #00FFFF;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.7);
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    padding: 3px;
+}
+
+h6 {
     color: #FF0080;
     text-align: left;
     text-shadow: 2px 1px #00FFFF;
@@ -55,24 +91,18 @@ h3 {
     padding: 3px;
 }
 
-h4 {
-    color: white;
-    text-align: center;
-    text-shadow: 2px 1px black;
-    text-transform: uppercase;
-}
-
 p {
     font-family: verdana;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 div {
-  background: #40E0D0;
+  background: rgba(255,255,255,.7);
   overflow: auto;
   width: 90%;
   margin: auto;
+  margin-top: 10px;
   padding: 3px;
 }
 
@@ -138,6 +168,15 @@ floats and colums.  */
 
 .coffeeoweek{
   float:right;
+}
+
+.morecoffee{
+  background-image: url("../img/coffee1.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  width: 100%;
 }
 
 /* Media, making menu reactive to all screens*/
