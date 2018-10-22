@@ -3,7 +3,7 @@
 paragraphs. right now this is mostly for blocking out the needs of the website. */
 /*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: #40E0D0 ;
+    background-color: #40E0D0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 0 auto;
@@ -24,14 +24,13 @@ body {
   }
 
 h1 {
-  /*  border-radius: 25px;
-    background: white; */
     font-size: 64px;
     color: #660000;
     text-align: center;
-    text-shadow: -5px -3px rgba(0, 255, 255, .5);
+    text-shadow: -4px -3px #40E0D0;
     padding: 0;
     margin: 0;
+    /*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 }
 
 h2 {
@@ -111,16 +110,12 @@ div {
   padding: 0;
 }
 
-nav{
-
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #660000;
 }
 
 li {
@@ -136,7 +131,18 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #40E0D0;
+    text-decoration: none;
+    color: #660000;
+}
+
+a{
+  color: #FF0080;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #660000;
 }
 
 textarea{
@@ -149,12 +155,13 @@ img{
   border-radius: 50%;
 }
 
+footer{
+  text-align: center;
+}
 
 
 /* id selectors */
-#navbar{
 
-}
 
 /* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to
 change these to id or elements, or combinse some similar styles together under new classes after figuring out
@@ -195,6 +202,9 @@ floats and colums.  */
   background-blend-mode: lighten;
 }
 
+.soc:hover{
+  transform: rotate(180deg);
+}
 /* Media, making menu reactive to all screens*/
 
 /* @media (min-width: 768px){
