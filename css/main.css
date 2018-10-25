@@ -47,15 +47,6 @@ p {
     font-size: 18px;
     text-align: inherit;
     padding: 10px;
-
-}
-
-div {
-  background: rgba(255,255,255,.7);
-  overflow: auto;
-  width: 100%;
-  margin: auto;
-  padding: 0;
 }
 
 ul {
@@ -99,8 +90,7 @@ textarea{
 }
 
 img{
-  padding: 8px;
-  border-radius: 50%;
+
 }
 
 footer{
@@ -109,6 +99,15 @@ footer{
 
 
 /* id selectors */
+#aboutBD{
+  background-image: url("../img/coffee1.jpg") ;
+}
+
+#bluepink{
+  width: 50%;
+  padding: 8px;
+  border-radius: 20%;
+}
 
 #about, #contact{
   text-align: center;
@@ -118,10 +117,32 @@ footer{
   text-align:left;
 }
 
+#morecoffee{
+  background-image: url("../img/brightdo.jpg") ;
+}
+
 #coffee{
   text-align:right;
 }
+
+#coffeepic{
+  width: 50%;
+  padding: 8px;
+  border-radius: 20%;
+}
 /* class selectors*/
+.basicdiv{
+    background: rgba(255,255,255,.7);
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
 
 .contentheading{
   color: #FF0080;
@@ -135,30 +156,6 @@ footer{
   padding: 3px;
 }
 
-.aboutBD{
-  background-image: url("../img/coffee1.jpg") ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: lighten;
-}
-
-.td{
-}
-
-.coffeeoweek{
-  float:right;
-}
-
-.morecoffee{
-  background-image: url("../img/brightdo.jpg") ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: lighten;
-}
-
 .soc:hover{
   transform: rotate(180deg);
 }
@@ -167,12 +164,13 @@ footer{
     h1 {
       color: yellow;
     }
+}
 
-    #bluepink{
-      float: none;
-      border-radius: 10%;
-    
-    }
+@media (min-width: 900px){
+
+#coffeepic{
+  float:left
+  }
 }
 
 .clearfix::after {
