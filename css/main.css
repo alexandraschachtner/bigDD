@@ -42,58 +42,6 @@ h2 {
     margin: 0;
 }
 
-h3 {
-    color: #FF0080;
-    font-size: 24px;
-    text-align: center;
-    text-shadow: 2px 1px #00FFFF;
-    text-transform: uppercase;
-    background: rgba(255,255,255,.7);
-    overflow: auto;
-    width: 90%;
-    margin: auto;
-    padding: 3px;
-}
-
-h4 {
-  color: #FF0080;
-  font-size: 24px;
-  text-align: left;
-  text-shadow: 2px 1px #00FFFF;
-  text-transform: uppercase;
-  background: rgba(255,255,255,.7);
-  overflow: auto;
-  width: 90%;
-  margin: auto;
-  padding: 3px;
-}
-
-h5{
-    color: #FF0080;
-    font-size: 24px;
-    text-align: right;
-    text-shadow: 2px 1px #00FFFF;
-    text-transform: uppercase;
-    background: rgba(255,255,255,.7);
-    overflow: auto;
-    width: 90%;
-    margin: auto;
-    padding: 3px;
-}
-
-h6 {
-    color: #FF0080;
-    font-size: 24px;
-    text-align: left;
-    text-shadow: 2px 1px #00FFFF;
-    text-transform: uppercase;
-    background: rgba(255,255,255,.7);
-    overflow: auto;
-    width: 90%;
-    margin: auto;
-    padding: 3px;
-}
-
 p {
     font-family: verdana;
     font-size: 18px;
@@ -162,18 +110,31 @@ footer{
 
 /* id selectors */
 
+#about, #contact{
+  text-align: center;
+}
 
-/* class selectors.  Currently being used for the separate styles of the parts of the menu.  May be albe to
-change these to id or elements, or combinse some similar styles together under new classes after figuring out
-floats and colums.  */
+#thed{
+  text-align:left;
+}
 
-/* .topnavigation{
-  position: topnavigation;
-  width: 100%;
+#coffee{
+  text-align:right;
+}
+/* class selectors*/
+
+.contentheading{
+  color: #FF0080;
+  font-size: 24px;
+  text-shadow: 2px 1px #00FFFF;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.7);
+  overflow: auto;
+  width: 90%;
   margin: auto;
-  padding: 0;
-  z-index: 1;
-} */
+  padding: 3px;
+}
+
 .aboutBD{
   background-image: url("../img/coffee1.jpg") ;
   background-repeat: no-repeat;
@@ -181,10 +142,6 @@ floats and colums.  */
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: lighten;
-}
-
-.thedlow{
-  float:left;
 }
 
 .td{
@@ -205,28 +162,17 @@ floats and colums.  */
 .soc:hover{
   transform: rotate(180deg);
 }
-/* Media, making menu reactive to all screens*/
+/* Media Query*/
+@media (max-width: 600px) {
+    h1 {
+      color: yellow;
+    }
 
-/* @media (min-width: 768px){
-    .combo,
-    .drink{
-    display: inline-block;
-    margin: 10px
-    padding: 5px;
-  }
-  .salt,
-  .sweet{
-    display: inline-block;
-    margin: 10px
-    padding: 5px;
-    align: center;
-  }
-  #menu{
-    align-content: center;
-  }
-}
-
-@media (max-width: 4000px){
+    #bluepink{
+      float: none;
+      border-radius: 10%;
+    
+    }
 }
 
 .clearfix::after {
