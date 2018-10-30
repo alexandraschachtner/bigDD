@@ -171,6 +171,10 @@ footer{
 #coffeepic{
   float:left
   }
+  
+  #bluepink{
+    float:right
+    }
 }
 
 .clearfix::after {
