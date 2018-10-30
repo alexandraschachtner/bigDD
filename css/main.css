@@ -146,6 +146,13 @@ footer{
   color: #40E0D0;
 }
 
+.fixed-nav nav {
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
 .basicdiv{
     background: rgba(255,255,255,.7);
     overflow: auto;
