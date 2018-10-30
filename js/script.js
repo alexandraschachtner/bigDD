@@ -1,18 +1,31 @@
-var nav = document.querySelector('#navigation');
-var navTop = nav.offsetTop;
+$(document).ready(function() {
+  // Custom
+  var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
+    var stickyHeight = sticky.outerHeight();
+    var stickyTop = stickyWrapper.offset().top;
+    if (scrollElement.scrollTop() >= stickyTop){
+      stickyWrapper.height(stickyHeight);
+      sticky.addClass("is-sticky");
+    }
+    else{
+      sticky.removeClass("is-sticky");
+      stickyWrapper.height('auto');
+    }
+  };
 
-function stickyNavigation() {
-  console.log('navTop = ' + navTop);
-  console.log('scrollY = ' + window.scrollY);
+  // Find all data-toggle="sticky-onscroll" elements
+  $('[data-toggle="sticky-onscroll"]').each(function() {
+    var sticky = $(this);
+    var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
+    sticky.before(stickyWrapper);
+    sticky.addClass('sticky');
 
-  if (window.scrollY >= navTop) {
-    // nav offsetHeight = height of nav
-    document.body.style.paddingTop = nav.offsetHeight + 'px';
-    document.body.classList.add('fixed-nav');
-  } else {
-    document.body.style.paddingTop = 0;
-    document.body.classList.remove('fixed-nav');
-  }
-}
+    // Scroll & resize events
+    $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function() {
+      stickyToggle(sticky, stickyWrapper, $(this));
+    });
 
-window.addEventListener('scroll', stickyNavigation);
+    // On page load
+    stickyToggle(sticky, stickyWrapper, $(window));
+  });
+});
