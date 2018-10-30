@@ -146,11 +146,13 @@ footer{
   color: #40E0D0;
 }
 
-.fixed-nav nav {
+.sticky.is-sticky {
   position: fixed;
-  top:0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
   width: 100%;
-  z-index: 1;
 }
 
 .basicdiv{
@@ -182,14 +184,37 @@ footer{
   transform: rotate(180deg);
 }
 /* Media Query*/
-@media (max-width: 600px) {
-    h1 {
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contentheading{
       color: yellow;
     }
+    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.contentheading{
+  color: red;
 }
-
-@media (min-width: 900px){
-
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.contentheading{
+  color: green;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.contentheading{
+  color: orange;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.contentheading{
+  color: black;
+}
+}
 #coffeepic{
   float:left
   }
