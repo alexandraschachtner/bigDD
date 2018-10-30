@@ -1,5 +1,5 @@
-const nav = document.querySelector('#navigation');
-const navTop = nav.offsetTop;
+var nav = document.querySelector('#navigation');
+var navTop = nav.offsetTop;
 
 function stickyNavigation() {
   console.log('navTop = ' + navTop);
