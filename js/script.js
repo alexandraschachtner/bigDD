@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // Custom
+
   var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
     var stickyHeight = sticky.outerHeight();
     var stickyTop = stickyWrapper.offset().top;
@@ -13,7 +13,6 @@ $(document).ready(function() {
     }
   };
 
-  // Find all data-toggle="sticky-onscroll" elements
   $('[data-toggle="sticky-onscroll"]').each(function() {
     var sticky = $(this);
     var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
