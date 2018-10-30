@@ -49,7 +49,11 @@ p {
     padding: 10px;
 }
 
-ul {
+nav{
+  background-color: pink;
+}
+
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -82,7 +86,7 @@ a{
 a:hover {
   text-decoration: none;
   color: #660000;
-}
+} */
 
 textarea{
   width: 80%;
@@ -130,7 +134,13 @@ footer{
   padding: 8px;
   border-radius: 20%;
 }
+
 /* class selectors*/
+.custom-toggler,
+.navbar-toggler-icon{
+  border-color: rgb(255,102,203);
+}
+
 .basicdiv{
     background: rgba(255,255,255,.7);
     overflow: auto;
@@ -171,7 +181,7 @@ footer{
 #coffeepic{
   float:left
   }
-  
+
   #bluepink{
     float:right
     }
