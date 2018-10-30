@@ -49,6 +49,10 @@ p {
     padding: 10px;
 }
 
+nav{
+  background-color: #660000;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -69,7 +73,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav a:hover {
     background-color: #40E0D0;
     text-decoration: none;
     color: #660000;
@@ -87,10 +91,6 @@ a:hover {
 textarea{
   width: 80%;
   height: 200px;
-}
-
-img{
-
 }
 
 footer{
@@ -130,13 +130,28 @@ footer{
   padding: 8px;
   border-radius: 20%;
 }
+
 /* class selectors*/
+.custom-toggler,
+.navbar-toggler-icon{
+  border-color: rgb(255,102,203);
+}
+
+.custom-toggler,
+.navbar-toggler{
+    border-color: rgb(255,102,203);
+}
+
+.navbar-text{
+  color: #40E0D0;
+}
+
 .basicdiv{
     background: rgba(255,255,255,.7);
     overflow: auto;
     width: 100%;
     margin: auto;
-    padding: 0;
+    padding: 16px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,7 +186,7 @@ footer{
 #coffeepic{
   float:left
   }
-  
+
   #bluepink{
     float:right
     }
