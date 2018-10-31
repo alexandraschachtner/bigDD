@@ -15,16 +15,16 @@ $(document).ready(function() {
 
   $('[data-toggle="sticky-onscroll"]').each(function() {
     var sticky = $(this);
-    var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
+    var stickyWrapper = $('<div>').addClass('sticky-wrapper');
     sticky.before(stickyWrapper);
     sticky.addClass('sticky');
 
-    // Scroll & resize events
+
     $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function() {
       stickyToggle(sticky, stickyWrapper, $(this));
     });
 
-    // On page load
+
     stickyToggle(sticky, stickyWrapper, $(window));
   });
 });
