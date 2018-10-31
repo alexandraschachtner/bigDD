@@ -132,10 +132,14 @@ footer{
 }
 
 /* class selectors*/
-.custom-toggler,
+.container{
+  width: 100%;
+}
+
+/* .custom-toggler,
 .navbar-toggler-icon{
   border-color: rgb(255,102,203);
-}
+} */
 
 .custom-toggler,
 .navbar-toggler{
@@ -146,20 +150,11 @@ footer{
   color: #40E0D0;
 }
 
-.sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-}
-
 .basicdiv{
     background: rgba(255,255,255,.7);
     overflow: auto;
     width: 100%;
-    margin-top: auto;
+    margin-top:auto;
     padding: 16px;
     background-repeat: no-repeat;
     background-position: center;
