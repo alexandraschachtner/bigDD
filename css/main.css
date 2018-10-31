@@ -136,10 +136,10 @@ footer{
   width: 100%;
 }
 
-.custom-toggler,
+/* .custom-toggler,
 .navbar-toggler-icon{
   border-color: rgb(255,102,203);
-}
+} */
 
 .custom-toggler,
 .navbar-toggler{
@@ -148,15 +148,6 @@ footer{
 
 .navbar-text{
   color: #40E0D0;
-}
-
-.sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
 }
 
 .basicdiv{
