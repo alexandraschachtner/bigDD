@@ -3,7 +3,8 @@
 paragraphs. right now this is mostly for blocking out the needs of the website. */
 /*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: #40E0D0;
+    background-color: #16FFB8;
+    color: #660000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 0 auto;
@@ -17,7 +18,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: #FF0080;
+    background-color: #F070A1;
     background-blend-mode: lighten;
     margin: 0;
     padding-top: 300px;
@@ -25,19 +26,10 @@ body {
 
 h1 {
     font-size: 64px;
+    font-weight: bold;
     color: #660000;
     text-align: center;
-    text-shadow: -4px -3px #40E0D0;
-    padding: 0;
-    margin: 0;
-    /*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
-}
-
-h2 {
-    color: #660000;
-    text-align: center;
-    text-decoration: overline;
-    text-transform: uppercase;
+    text-shadow: 3px 2px #12C998;
     padding: 0;
     margin: 0;
 }
@@ -49,8 +41,8 @@ p {
     padding: 10px;
 }
 
-nav{
-  background-color: #660000;
+nav {
+  background-color: #12C998;
 }
 
 ul {
@@ -58,7 +50,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #660000;
+    background-color: #12C998;
 }
 
 li {
@@ -67,25 +59,25 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #C34271;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #40E0D0;
+    background-color: #16FFB8;
     text-decoration: none;
-    color: #660000;
+    color: #C34271;
 }
 
 a{
-  color: #FF0080;
+  color: #C34271;
 }
 
 a:hover {
   text-decoration: none;
-  color: #660000;
+  color: #439576;
 }
 
 textarea{
@@ -147,7 +139,7 @@ footer{
 }
 
 .navbar-text{
-  color: #40E0D0;
+  color: #660000;
 }
 
 .basicdiv{
@@ -164,9 +156,10 @@ footer{
 }
 
 .contentheading{
-  color: #FF0080;
+  color: #439576;
   font-size: 24px;
-  text-shadow: 2px 1px #00FFFF;
+  font-weight: bold;
+  /* text-shadow: 1.5px .5px #C34271; */
   text-transform: uppercase;
   background: rgba(255,255,255,.7);
   overflow: auto;
@@ -183,31 +176,31 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .contentheading{
-      color: yellow;
+      color:;
     }
     }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 .contentheading{
-  color: red;
+  color:;
 }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .contentheading{
-  color: green;
+  color:;
 }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 .contentheading{
-  color: orange;
+  color:;
 }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .contentheading{
-  color: black;
+  color:;
 }
 }
 #coffeepic{
