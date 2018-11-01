@@ -1,31 +1,27 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-  <title>Big Dee's Donuts and Coffee.  You'll love these nuts!</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!--Normalize CSS-->
-  <link rel="stylesheet" href="css/normalize.css">
-
-<!--Bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-<!--custom css-->
-  <link rel="stylesheet" href="css/main.css">
-
+    <title>Big Dee's Donuts and Coffee.  You'll love these nuts!</title>
+    <!--Meta Tag-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Normalize CSS-->
+      <link rel="stylesheet" href="css/normalize.css">
+    <!--Bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--custom css-->
+      <link rel="stylesheet" href="css/main.css">
   </head>
+<!-- End of Head and CSS Files -->
 
   <body>
-<!-- Start Header -->
+<!-- Start Header ------------------------------------------>
     <header>
       <h1>Hot Fresh Donuts</h1>
     </header>
-<!-- End header -->
+<!-- End Header -->
 
-<!--- Start Nav -->
-<!-- <div class="container-flex sticky-top"> -->
+<!--- Start Nav ------------------------------------------>
 <nav class="navbar navbar-expand-lg container-flex sticky-top" data-toggle="sticky-onscroll">
   <span class="navbar-brand" href="#"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</span>
   <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,10 +41,10 @@
     </ul>
   </div>
 </nav>
-<!-- </div> -->
 <!-- End Nav-->
 
-<!-- Start of Content-->
+<!-- Start of Content------------------------------------------>
+<!-- First up About information and Big Dee's Profile. Uses the class "first-container"-->
     <div id="about" class="float-img first-container container-fluid ">
       <h2>The BOSS of Breakfast</h2>
         <p> Big Dee is the boss of your breakfast!  We offer you a unique start to your day with our signature donut
@@ -64,35 +60,41 @@
         </p>
     </div>
 
+<!--Second Content------------------------------------------>
+<!-- Next, two cols side by side on large screens.  Donut and Drink Menu Options.  Uses the class "second-container"-->
     <div class="container-fluid second-container">
       <div class="row">
+        
         <div class="container col-sm">
           <h3 id="">The D - Low on the Donuts You Need</h3>
-          <!-- <img id="" src="img/bluepink.jpg"> -->
+            <!-- <img id="" src="img/bluepink.jpg"> -->
           <p>Our donuts are unique and soon to be your favorite.  Vegan and allergen friendly.  Along with the Classic
-            flavors everyone loves, like <b>glazed</b>, <b>chocolate frosted</b>, and <b>sprinkles</b>.  We also offer
-            a new line of Savory donuts that make a perfect breakfast sandwich for your morning on the go.  Try a bacon
-            and gouda on a <b>Plain</b> donut, or a vegan sausage and spinach on our <b>Chive and Onion</b> donut.
+              flavors everyone loves, like <b>glazed</b>, <b>chocolate frosted</b>, and <b>sprinkles</b>.  We also offer
+              a new line of Savory donuts that make a perfect breakfast sandwich for your morning on the go.  Try a bacon
+              and gouda on a <b>Plain</b> donut, or a vegan sausage and spinach on our <b>Chive and Onion</b> donut.
           </p>
         </div>
 
-      <div class="container col-sm">
-        <h4 id="coffee">Coffee of the Week</h4>
-          <!-- <img id="" src="img/coffee1.jpg"> -->
-          <p>We're too focused on our donuts to really think about coffee so we've left that up to the locals.  No really
-          we source our coffee from the best local roasterys and coffee shops in town.  They know their stuff so we leave it up to
-          th professionals.  We know you're busy too, so we change up our featured coffee of the week so you can tase the best
-          of the City's flavors without having to go out of your way to get what you like.  Don't worry tho, week keep a house
-          blend on hand just incase our featured coffee just isnt your cup of joe.
-        </p>
+        <div class="container col-sm">
+          <h4 id="coffee">Coffee of the Week</h4>
+            <!-- <img id="" src="img/coffee1.jpg"> -->
+            <p>We're too focused on our donuts to really think about coffee so we've left that up to the locals.  No really
+            we source our coffee from the best local roasterys and coffee shops in town.  They know their stuff so we leave it up to
+            th professionals.  We know you're busy too, so we change up our featured coffee of the week so you can tase the best
+            of the City's flavors without having to go out of your way to get what you like.  Don't worry tho, week keep a house
+            blend on hand just incase our featured coffee just isnt your cup of joe.
+          </p>
+        </div>
+
     </div>
 </div>
-  </div>
 
 
-<!-- trying to fix the grid and move content-->
-
-<!---->
+<!--Third Content------------------------------------------>
+<!--Uses class "contact-container".  Email/Newsletter sign up
+(Need to add a click event or some sort of JS function that pops up with a thank you
+after filling out the contact form. And a thank you and Coupon Code if the news letter
+ sign up is checked)-->
 
   <div class="container contact-container">
       <h5 id="contact">Contact us</h5>
@@ -104,12 +106,10 @@
            <p><button type="submit">Send it!</button>
          </p>
        <form>
-       </div>
+     </div>
 
-  </div>
-</div>
 
-<!-- Start Footer -->
+<!-- Start Footer ------------------------------------------>
 <footer>
 <p> This is just a place holder for footer info.  You know, things like &copy; or &trade;. Or <a href="apply.html">work for us</a> kind of links.<br>
 <a href="facebook.com"><img class="soc" src="img/glyphicons-social-31-facebook.png"></a>
@@ -121,11 +121,11 @@
 <!-- End Footer -->
 
 
-<!--Bootstrap Related JS, ect -->
+<!--Bootstrap Related JS, ect ------------------------------------------>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<!-- Custom JS-->
+<!-- Custom JS------------------------------------------>
   </body>
 </html>
