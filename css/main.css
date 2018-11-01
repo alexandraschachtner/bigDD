@@ -1,14 +1,8 @@
+/* #660000 , #C34271 ,#F070A1 , #16FFBD , #12C998 , #439F76 */
+/* Elements */
 
-/*General Styles for Elements throughout the website.  This includes the body backgound texts headers and
-paragraphs. right now this is mostly for blocking out the needs of the website. */
-/*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: #16FFB8;
-    color: #660000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin: 0 auto;
-    padding: 0;
   }
 
   header {
@@ -18,10 +12,10 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: #F070A1;
-    background-blend-mode: lighten;
+    background-color: #C34271;
+    background-blend-mode: screen;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 150px;
   }
 
 h1 {
@@ -29,191 +23,133 @@ h1 {
     font-weight: bold;
     color: #660000;
     text-align: center;
-    text-shadow: 3px 2px #12C998;
-    padding: 0;
+    text-shadow: 3px 2px #439F76;
+    padding-bottom: 25px;
     margin: 0;
+}
+
+h2, h3, h4, h5{
+  font-size: 24px;
+  color: #660000;
+  background-color: rgba(255,255,255, .5);
+  text-align: center;
+  width: 100%
 }
 
 p {
     font-family: verdana;
     font-size: 18px;
-    text-align: inherit;
     padding: 10px;
 }
 
 nav {
-  background-color: #12C998;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #12C998;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #C34271;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #16FFB8;
-    text-decoration: none;
-    color: #C34271;
-}
-
-a{
-  color: #C34271;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #439576;
-}
-
-textarea{
-  width: 80%;
-  height: 200px;
-}
-
-footer{
-  text-align: center;
-}
-
-
-/* id selectors */
-#aboutBD{
-  background-image: url("../img/coffee1.jpg") ;
-}
-
-#bluepink{
-  width: 50%;
-  padding: 8px;
-  border-radius: 20%;
-}
-
-#about, #contact{
-  text-align: center;
-}
-
-#thed{
-  text-align:left;
-}
-
-#morecoffee{
-  background-image: url("../img/brightdo.jpg") ;
-}
-
-#coffee{
-  text-align:right;
-}
-
-#coffeepic{
-  width: 50%;
-  padding: 8px;
-  border-radius: 20%;
+  background-color: #F070A1;
 }
 
 /* class selectors*/
-.container{
-  width: 100%;
+.custom-toggler{
+  border-color: #16FFBD;
 }
 
-/* .custom-toggler,
-.navbar-toggler-icon{
-  border-color: rgb(255,102,203);
-} */
-
-.custom-toggler,
-.navbar-toggler{
-    border-color: rgb(255,102,203);
+.navbar-brand{
+  color: #16FFBD;
+  text-shadow: 1px .5px #12C998;
 }
 
-.navbar-text{
-  color: #660000;
+.nav-link{
+  color: #16FFBD;;
 }
 
-.basicdiv{
-    background: rgba(255,255,255,.7);
+.nav-link:hover {
+  text-decoration: none;
+  color: #12C998;
+}
+
+.first-container{
+  background-color: #16FFBD;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 30px
+}
+
+.float-img{
     overflow: auto;
-    width: 100%;
-    margin-top:auto;
-    padding: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: lighten;
 }
 
-.contentheading{
-  color: #439576;
-  font-size: 24px;
-  font-weight: bold;
-  /* text-shadow: 1.5px .5px #C34271; */
-  text-transform: uppercase;
-  background: rgba(255,255,255,.7);
+.second-container{
+  margin-top: 50px;
+}
+
+.contact-container{
   overflow: auto;
-  width: 90%;
-  margin: auto;
-  padding: 3px;
+  width: 100%;
+  padding: 16px;
+  background-image: url("../img/bluepink.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #16FFBD;
+  background-blend-mode: screen;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: #F070A1;
+  border-radius: 8px;
 }
 
-.soc:hover{
-  transform: rotate(180deg);
-}
-/* Media Query*/
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contentheading{
-      color:;
-    }
-    }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-.contentheading{
-  color:;
-}
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-.contentheading{
-  color:;
-}
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-.contentheading{
-  color:;
-}
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-.contentheading{
-  color:;
-}
-}
-#coffeepic{
-  float:left
-  }
-
-  #bluepink{
-    float:right
-    }
-}
-
+/* Sudo Classes */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+
+/* id selectors */
+#BDPP{
+  padding: 8px;
+}
+/* Media Query*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #BDPP{
+    width: 90%;
+    border-radius: 20%;
+    float: none;
+  }
+    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #BDPP{
+    width: 80%;
+    border-radius: 20%;
+    float: none;
+  }
+  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #BDPP{
+    width: 25%;
+    border-radius: 20%;
+    float: left;
+  }
+  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #BDPP{
+    width: 25%;
+    border-radius: 20%;
+    float: left;
+  }
+  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #BDPP{
+    width: 18%;
+    border-radius: 20%;
+    float: right;
+   }
+  }
