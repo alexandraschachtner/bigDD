@@ -1,3 +1,4 @@
+/* #660000 , #C34271 ,#F070A1 , #16FFBD , #12C998 , #439F76 */
 /* Elements */
 
 body {
@@ -11,18 +12,18 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: #F070A1;
-    background-blend-mode: lighten;
+    background-color: #C34271;
+    background-blend-mode: screen;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 200px;
   }
 
 h1 {
     font-size: 64px;
     font-weight: bold;
-    color: #660000;
+    color: #12C998;
     text-align: center;
-    text-shadow: 3px 2px #12C998;
+    text-shadow: 3px 2px #660000;
     padding: 0;
     margin: 0;
 }
@@ -42,12 +43,10 @@ p {
 }
 
 nav {
-  background-color: #12C998;
+  background-color: #F070A1;
 }
 
-ul {
-
-    background-color: #12C998;
+/*    background-color: #12C998;
 }
 
 li a {
@@ -62,24 +61,34 @@ nav a:hover {
     background-color: #16FFB8;
     text-decoration: none;
     color: #C34271;
+    border: green;
 }
 
 a{
   color: #C34271;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #439576;
-}
+ */
 
 /* class selectors*/
 .custom-toggler{
-  border-color: #F070A1;
+  border-color: #16FFBD;
+
 }
 
 .navbar-brand{
-  padding: 10px;
+  color: #16FFBD;
+  text-shadow: 1px .5px #12C998;
+}
+
+.nav-link{
+  color: #yellow;
+  text-shadow: .8px 1px #F070A1;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #16FFB8;
 }
 
 .first-container{
@@ -91,8 +100,13 @@ a:hover {
   padding-top: 30px;
 }
 
-/* id selectors */
 
+/* id selectors */
+#BDPP{
+  width: 100%;
+  padding: 8px;
+  border-radius: 20%;
+}
 /* Media Query*/
 
 /* Extra small devices (phones, 600px and down) */
