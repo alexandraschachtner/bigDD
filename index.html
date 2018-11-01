@@ -19,84 +19,82 @@
 
   <body>
 <!-- Start Header -->
-    <header class="abovenav">
-      <h1>Big Dee's Donuts</h1>
+    <header>
+      <h1>HOT FRESH DONUTS</h1>
     </header>
 <!-- End header -->
 
 <!--- Start Nav -->
 <div class="container-flex sticky-top">
 <nav id="navigation" class="navbar navbar-expand-lg" data-toggle="sticky-onscroll">
-  <a class="navbar-brand" href="#about">Big Dee's Nuts</a>
+  <a class="navbar-brand" href="#"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</a>
   <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="custom-toggler navbar-toggler-icon"></span>
+    <span class="custom-toggler navbar-toggler-icon"><img src="img/dropdown.png" width="30" height="30" alt=""></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#thed">The D-Low <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">The D-Low <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#coffee">Coffee of the Week</a>
+        <a class="nav-link" href="#">Coffee of the Week</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact Us</a>
+        <a class="nav-link" href="#">Contact Us</a>
       </li>
     </ul>
-    <span class="navbar-text">
-      You are gonna love these nuts.
-    </span>
   </div>
 </nav>
 </div>
 <!-- End Nav-->
 
 <!-- Start of Content-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm basicdiv" id="aboutBD">
-      <h3 class="contentheading" id="about">Who is Big Dee, an About us</h3>
+    <div class="first-container container-fluid ">
+      <h2>Who is Big Dee, an About us</h2>
         <p> Big Dee is the boss of your breakfast!  We offer you a unique start to your day with our signature donut
           breakfast sandwich and our one of a kind Savory Donut flavors (seriously its NOT a bagel).  Get something
           delish for yourself with our daily breakfast combos or be the favorite of the office with a dozen and a
           carton of our coffee of the week.
         </p>
-
-
         <p>Big Dee is the boss of your breakfast!  We offer you a unique start to your day with our signature donut
           breakfast sandwich and our one of a kind Savory Donut flavors (seriously its NOT a bagel).  Get something
           delish for yourself with our daily breakfast combos or be the favorite of the office with a dozen and a
           carton of our coffee of the week.
         </p>
     </div>
-    <div class="col-sm">
-      <h4 class="contentheading" id="thed">The D - Low on the Donuts You Need</h4>
-        <img id="bluepink" src="img/bluepink.jpg">
-        <p>Our donuts are unique and soon to be your favorite.  Vegan and allergen friendly.  Along with the Classic
-        flavors everyone loves, like <b>glazed</b>, <b>chocolate frosted</b>, and <b>sprinkles</b>.  We also offer
-        a new line of Savory donuts that make a perfect breakfast sandwich for your morning on the go.  Try a bacon
-        and gouda on a <b>Plain</b> donut, or a vegan sausage and spinach on our <b>Chive and Onion</b> donut.
-        </p>
-    </div>
-  </div>
-</div>
-<!-- trying to fix the grid and move content-->
 
-<!---->
-      <div class="basicdiv" id="morecoffee">
-        <h5 class="contentheading" id="coffee">Coffee of the Week</h5>
-          <img id="coffeepic" src="img/coffee1.jpg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container col-sm">
+          <h3 id="">The D - Low on the Donuts You Need</h3>
+          <!-- <img id="" src="img/bluepink.jpg"> -->
+          <p>Our donuts are unique and soon to be your favorite.  Vegan and allergen friendly.  Along with the Classic
+            flavors everyone loves, like <b>glazed</b>, <b>chocolate frosted</b>, and <b>sprinkles</b>.  We also offer
+            a new line of Savory donuts that make a perfect breakfast sandwich for your morning on the go.  Try a bacon
+            and gouda on a <b>Plain</b> donut, or a vegan sausage and spinach on our <b>Chive and Onion</b> donut.
+          </p>
+        </div>
+
+      <div class="container col-sm">
+        <h4 id="">Coffee of the Week</h4>
+          <!-- <img id="" src="img/coffee1.jpg"> -->
           <p>We're too focused on our donuts to really think about coffee so we've left that up to the locals.  No really
           we source our coffee from the best local roasterys and coffee shops in town.  They know their stuff so we leave it up to
           th professionals.  We know you're busy too, so we change up our featured coffee of the week so you can tase the best
           of the City's flavors without having to go out of your way to get what you like.  Don't worry tho, week keep a house
           blend on hand just incase our featured coffee just isnt your cup of joe.
         </p>
-      </div>
     </div>
 
-  <div class="basicdiv">
-      <h6 class="contentheading" id="contact">Contact us</h6>
+  </div>
+
+
+<!-- trying to fix the grid and move content-->
+
+<!---->
+
+  <div class="container">
+      <h5 id="contact">Contact us</h5>
         <form>
            <p><input type="text" class="contact" name="name" placeholder="Name"></p>
            <p><input type="email" class="contact" name="email" placeholder="JohnSmith@mail.com"></p>
@@ -110,7 +108,7 @@
   </div>
 </div>
 
-<div class="container">
+<!-- Start Footer -->
 <footer>
 <p> This is just a place holder for footer info.  You know, things like &copy; or &trade;. Or <a href="apply.html">work for us</a> kind of links.<br>
 <a href="facebook.com"><img class="soc" src="img/glyphicons-social-31-facebook.png"></a>
@@ -119,12 +117,14 @@
 <a href="yelp.com"><img class="soc" src="img/glyphicons-social-46-yelp.png"></a>
 </p>
 </footer>
-</div>
+<!-- End Footer -->
 
-<!--bootstrap related js, ect -->
+
+<!--Bootstrap Related JS, ect -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<!-- Custom JS-->
   </body>
 </html>

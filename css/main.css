@@ -1,14 +1,7 @@
+/* Elements */
 
-/*General Styles for Elements throughout the website.  This includes the body backgound texts headers and
-paragraphs. right now this is mostly for blocking out the needs of the website. */
-/*#660000,#FF0080,#40E0D0,#00FFFF,#000000,#660000,#FF0080,#40E0D0*/
 body {
-    background-color: #16FFB8;
-    color: #660000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin: 0 auto;
-    padding: 0;
   }
 
   header {
@@ -34,6 +27,13 @@ h1 {
     margin: 0;
 }
 
+h2 {
+  color: #660000;
+  background-color: rgba(255,255,255, .5);
+  text-align: center;
+  width: 100%
+}
+
 p {
     font-family: verdana;
     font-size: 18px;
@@ -46,15 +46,8 @@ nav {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #12C998;
-}
 
-li {
-    float: left;
+    background-color: #12C998;
 }
 
 li a {
@@ -80,97 +73,26 @@ a:hover {
   color: #439576;
 }
 
-textarea{
-  width: 80%;
-  height: 200px;
+/* class selectors*/
+.custom-toggler{
+  border-color: #F070A1;
 }
 
-footer{
-  text-align: center;
+.navbar-brand{
+  padding: 10px;
 }
 
+.first-container{
+  background-color: #12C998;
+  background-image: url("../img/brightdo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  padding-top: 30px;
+}
 
 /* id selectors */
-#aboutBD{
-  background-image: url("../img/coffee1.jpg") ;
-}
 
-#bluepink{
-  width: 50%;
-  padding: 8px;
-  border-radius: 20%;
-}
-
-#about, #contact{
-  text-align: center;
-}
-
-#thed{
-  text-align:left;
-}
-
-#morecoffee{
-  background-image: url("../img/brightdo.jpg") ;
-}
-
-#coffee{
-  text-align:right;
-}
-
-#coffeepic{
-  width: 50%;
-  padding: 8px;
-  border-radius: 20%;
-}
-
-/* class selectors*/
-.container{
-  width: 100%;
-}
-
-/* .custom-toggler,
-.navbar-toggler-icon{
-  border-color: rgb(255,102,203);
-} */
-
-.custom-toggler,
-.navbar-toggler{
-    border-color: rgb(255,102,203);
-}
-
-.navbar-text{
-  color: #660000;
-}
-
-.basicdiv{
-    background: rgba(255,255,255,.7);
-    overflow: auto;
-    width: 100%;
-    margin-top:auto;
-    padding: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: lighten;
-}
-
-.contentheading{
-  color: #439576;
-  font-size: 24px;
-  font-weight: bold;
-  /* text-shadow: 1.5px .5px #C34271; */
-  text-transform: uppercase;
-  background: rgba(255,255,255,.7);
-  overflow: auto;
-  width: 90%;
-  margin: auto;
-  padding: 3px;
-}
-
-.soc:hover{
-  transform: rotate(180deg);
-}
 /* Media Query*/
 
 /* Extra small devices (phones, 600px and down) */
@@ -183,35 +105,28 @@ footer{
 @media only screen and (min-width: 600px) {
 .contentheading{
   color:;
-}
-}
+  }
+  }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .contentheading{
   color:;
-}
-}
+  }
+  }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 .contentheading{
   color:;
-}
-}
+  }
+  }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .contentheading{
   color:;
-}
-}
-#coffeepic{
-  float:left
+  }
   }
 
-  #bluepink{
-    float:right
-    }
-}
-
+/* Sudo Classes */
 .clearfix::after {
     content: "";
     clear: both;
