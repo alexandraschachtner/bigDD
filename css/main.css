@@ -48,6 +48,7 @@ nav {
 
 /* class selectors*/
 
+
 .custom-toggler{
   border-color: #16FFBD;
 }
@@ -112,6 +113,7 @@ nav {
 #BDPP{
   padding: 8px;
 }
+
 /* Media Query*/
 
 /* Extra small devices (phones, 600px and down) */
@@ -121,6 +123,9 @@ nav {
     border-radius: 20%;
     float: none;
   }
+  #coffee{
+    padding-top: 70px;
+  }
     }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -129,6 +134,7 @@ nav {
     border-radius: 20%;
     float: none;
   }
+
   }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -137,6 +143,8 @@ nav {
     border-radius: 20%;
     float: left;
   }
+
+
   }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -145,6 +153,7 @@ nav {
     border-radius: 20%;
     float: left;
   }
+
   }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
