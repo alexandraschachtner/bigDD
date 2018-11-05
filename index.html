@@ -23,7 +23,7 @@
 
 <!--- Start Nav ------------------------------------------>
 <nav class="navbar navbar-expand-lg container-flex sticky-top" data-toggle="sticky-onscroll">
-  <span class="navbar-brand" href="#"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</span>
+  <a class="navbar-brand" href="#about"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</a>
   <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="custom-toggler navbar-toggler-icon"><img src="img/dropdown.png" width="30" height="30" alt=""></span>
   </button>
@@ -52,8 +52,8 @@
           delish for yourself with our daily breakfast combos or be the favorite of the office with a dozen and a
           carton of our coffee of the week.
         </p>
-        <img id="BDPP"src="img/BigDeeProfilePic.jpg">
-        <p>Big Dee is the boss of your breakfast!  We offer you a unique start to your day with our signature donut
+      <img id="BDPP" src="img/BigDeeProfilePic.jpg">
+      <p>Big Dee is the boss of your breakfast!  We offer you a unique start to your day with our signature donut
           breakfast sandwich and our one of a kind Savory Donut flavors (seriously its NOT a bagel).  Get something
           delish for yourself with our daily breakfast combos or be the favorite of the office with a dozen and a
           carton of our coffee of the week.
@@ -75,8 +75,8 @@
           </p>
         </div>
 
-        <div id="coffee" class="container col-sm">
-          <h4 >Coffee of the Week</h4>
+        <div class="container col-sm">
+          <h4 id="coffee">Coffee of the Week</h4>
             <!-- <img id="" src="img/coffee1.jpg"> -->
             <p>We're too focused on our donuts to really think about coffee so we've left that up to the locals.  No really
             we source our coffee from the best local roasterys and coffee shops in town.  They know their stuff so we leave it up to
@@ -96,10 +96,24 @@
 after filling out the contact form. And a thank you and Coupon Code if the news letter
  sign up is checked)-->
 
-  <div class="container contact-container">
-      <h5 id="contact">Contact us</h5>
-        <form>
-       <form>
+  <div id="contact" class="container contact-container">
+      <h5>Contact us</h5>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </div>
 
 <!-- Start Footer ------------------------------------------>

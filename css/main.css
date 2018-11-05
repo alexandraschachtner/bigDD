@@ -5,7 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  header {
+header {
     width: 100%;
     background-image: url("../img/donut.jpg") ;
     background-repeat: no-repeat;
@@ -46,8 +46,16 @@ nav {
   background-color: #F070A1;
 }
 
-/* class selectors*/
+a{
+  color: #16FFBD;;
+}
 
+a:hover {
+  text-decoration: none;
+  color: #12C998;
+}
+
+/* class selectors*/
 
 .custom-toggler{
   border-color: #16FFBD;
@@ -58,14 +66,19 @@ nav {
   text-shadow: 1px .5px #12C998;
 }
 
-.nav-link{
+.navbar-brand:hover{
+  text-decoration: none;
+  color: #12C998;
+}
+
+/* .nav-link{
   color: #16FFBD;;
 }
 
 .nav-link:hover {
   text-decoration: none;
   color: #12C998;
-}
+} */
 
 .first-container{
   background-color: #16FFBD;
@@ -73,9 +86,9 @@ nav {
   background-position: center;
   background-size: cover;
   background-blend-mode: lighten;
-  padding-top: 30px;
+  /* padding-top: 30px;
   text-align: center;
-  margin-top: 30px
+  margin-top: 30px */
 }
 
 .float-img{
@@ -114,6 +127,23 @@ nav {
   padding: 8px;
 }
 
+#about,
+#dlow,
+#coffee,
+#contact  {
+  padding-top: 70px;
+}
+
+#coffee{
+  border-bottom-style: solid;
+  border-color: #12C998;
+}
+
+#dlow{
+  border-bottom-style: solid;
+  border-color: #F070A1;
+}
+
 /* Media Query*/
 
 /* Extra small devices (phones, 600px and down) */
@@ -122,9 +152,6 @@ nav {
     width: 90%;
     border-radius: 20%;
     float: none;
-  }
-  #coffee{
-    padding-top: 70px;
   }
     }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -153,7 +180,6 @@ nav {
     border-radius: 20%;
     float: left;
   }
-
   }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
