@@ -46,9 +46,22 @@ nav {
   background-color: #F070A1;
 }
 
+a{
+  color: #16FFBD;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #12C998;
+}
+
+footer{
+ text-align: center;
+ padding-top: 30px;
+}
+
+
 /* class selectors*/
-
-
 .custom-toggler{
   border-color: #16FFBD;
 }
@@ -59,7 +72,7 @@ nav {
 }
 
 .nav-link{
-  color: #16FFBD;;
+  color: #16FFBD;
 }
 
 .nav-link:hover {
@@ -75,7 +88,6 @@ nav {
   background-blend-mode: lighten;
   padding-top: 30px;
   text-align: center;
-  margin-top: 30px
 }
 
 .float-img{
@@ -102,6 +114,12 @@ nav {
   border-radius: 8px;
 }
 
+.workforus{
+    background-color: #F070A1;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 /* Sudo Classes */
 .clearfix::after {
     content: "";
@@ -114,6 +132,13 @@ nav {
   padding: 8px;
 }
 
+#about,
+#dlow,
+#coffee,
+#contact{
+  padding-top: 70px;
+}
+
 /* Media Query*/
 
 /* Extra small devices (phones, 600px and down) */
@@ -123,10 +148,7 @@ nav {
     border-radius: 20%;
     float: none;
   }
-  #coffee{
-    padding-top: 70px;
-  }
-    }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #BDPP{
@@ -134,8 +156,7 @@ nav {
     border-radius: 20%;
     float: none;
   }
-
-  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #BDPP{
@@ -143,17 +164,14 @@ nav {
     border-radius: 20%;
     float: left;
   }
-
-
-  }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #BDPP{
     width: 25%;
     border-radius: 20%;
     float: left;
-  }
-
+    }
   }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

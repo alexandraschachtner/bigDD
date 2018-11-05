@@ -23,7 +23,7 @@
 
 <!--- Start Nav ------------------------------------------>
 <nav class="navbar navbar-expand-lg container-flex sticky-top" data-toggle="sticky-onscroll">
-  <span class="navbar-brand" href="#"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</span>
+  <span class="navbar-brand"><a href="#about"><img src="img/donutsprite.png" width="30" height="30" alt="">  Big Dee's Dounts</a></span>
   <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="custom-toggler navbar-toggler-icon"><img src="img/dropdown.png" width="30" height="30" alt=""></span>
   </button>
@@ -95,16 +95,31 @@
 (Need to add a click event or some sort of JS function that pops up with a thank you
 after filling out the contact form. And a thank you and Coupon Code if the news letter
  sign up is checked)-->
-
+<div id="contact">
   <div class="container contact-container">
-      <h5 id="contact">Contact us</h5>
-        <form>
-       <form>
+      <h5>Contact us</h5>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
 </div>
 
 <!-- Start Footer ------------------------------------------>
 <footer>
-<p> This is just a place holder for footer info.  You know, things like &copy; or &trade;. Or <a href="apply.html">work for us</a> kind of links.<br>
+<p> This is just a place holder for footer info.  You know, things like &copy; or &trade;. Or <a class="workforus" href="apply.html">work for us</a> kind of links.<br>
 <a href="facebook.com"><img class="soc" src="img/glyphicons-social-31-facebook.png"></a>
 <a href="twitter.com"><img class="soc" src="img/glyphicons-social-32-twitter.png"></a>
 <a href="instagram.com"><img class="soc" src="img/glyphicons-social-33-instagram.png"></a>
