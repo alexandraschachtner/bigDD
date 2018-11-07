@@ -127,6 +127,11 @@ footer{
   margin-top: 20px;
 }
 
+.sprite{
+  width: 30px;
+  height: 30px;
+}
+
 /* Sudo Classes */
 .clearfix::after {
     content: "";
@@ -134,9 +139,15 @@ footer{
     display: table;
 }
 
+
 /* id selectors */
 #BDPP{
   padding: 8px;
+}
+
+#dlow{
+  border-bottom-style: solid;
+  border-color: #16FFBD;
 }
 
 #about,
@@ -145,6 +156,8 @@ footer{
 #contact{
   padding-top: 70px;
 }
+
+
 
 /* Media Query*/
 
