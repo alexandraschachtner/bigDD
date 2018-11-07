@@ -30,7 +30,8 @@ h1 {
 
 h2, h3, h4, h5{
   font-size: 24px;
-  color: #660000;
+  color: #C34271;
+  text-shadow: 1px 1px #660000;
   background-color: rgba(255,255,255, .5);
   text-align: center;
   width: 100%
@@ -39,6 +40,7 @@ h2, h3, h4, h5{
 p {
     font-family: verdana;
     font-size: 18px;
+    color: #660000;
     padding: 10px;
 }
 
@@ -59,7 +61,6 @@ footer{
  text-align: center;
  padding-top: 30px;
 }
-
 
 /* class selectors*/
 .custom-toggler{
@@ -110,7 +111,7 @@ footer{
   background-blend-mode: screen;
   margin-top: 30px;
   border-style: solid;
-  border-color: #F070A1;
+  border-color: #C34271;
   border-radius: 8px;
 }
 
@@ -118,6 +119,12 @@ footer{
     background-color: #F070A1;
     border-radius: 5px;
     padding: 2px;
+}
+
+.btn{
+  background-color: #F070A1;
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Sudo Classes */

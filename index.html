@@ -94,25 +94,24 @@
 <!--Uses class "contact-container".  Email/Newsletter sign up
 (Need to add a click event or some sort of JS function that pops up with a thank you
 after filling out the contact form. And a thank you and Coupon Code if the news letter
- sign up is checked)-->
+ sign up is checked  - right now the only JS related elements are the checkbox and submit button)-->
 <div id="contact">
   <div class="container contact-container">
       <h5>Contact us</h5>
       <form>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <label for="Email">Email address</label>
+          <input type="email" class="form-control" id="Email" placeholder="Enter email">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <input type="checkbox" class="form-check-input" id="checkNews">
+          <label class="form-check-label" for="checkNews">Sign Up for News and Deals!</label>
         </div>
-        <button onclick="couponCode();" type="submit" class="btn btn-primary">Submit</button>
+        <button onclick="couponCode();" type="submit" class="btn">Submit</button>
       </form>
     </div>
 </div>
