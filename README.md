@@ -11,8 +11,10 @@ JavaScript is being used to offer two different alert messages if the checkbox i
 
 Divs with the "first, second and contact -container" class responsive 
 
-Note the form elements are not pertanent to the type of input information we would actually be looking for if this were a real site.  Used as place holders.  Please test the check box and submit button for Java Script alerts.
+Please test the check box and submit button for Java Script alerts.
 
 In case it is not obvious the Hamburger has been replaced with Coffee Beans as a style choice for the collapsed version of the navbar
+
+Works as planned on mobile phones desktop and landscape view on ipad.  Having troubles with portrat view on ipad with margins hidden behind the navbar and navbar not collapsing correctly.  But only on the ipad.  I phone seems to work fine too. 
 
 
