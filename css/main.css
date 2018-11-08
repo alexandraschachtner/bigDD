@@ -70,6 +70,7 @@ footer{
 .navbar-brand{
   color: #16FFBD;
   text-shadow: 1px .5px #12C998;
+  z-index: 1;
 }
 
 .nav-link{
