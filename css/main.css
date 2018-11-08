@@ -168,10 +168,14 @@ footer{
     border-radius: 20%;
     float: none;
   }
+  #sprite1,
+  #sprite2{
+    display: none;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  #BDPP{
+@media only screen and (min-width: 600px){
+    #BDPP{
     width: 80%;
     border-radius: 20%;
     float: none;
@@ -183,6 +187,10 @@ footer{
     width: 25%;
     border-radius: 20%;
     float: left;
+  }
+  #dlow,
+  #coffee,{
+      margin-top: 70px;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */

@@ -3,7 +3,6 @@
 $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
     $(this).parents('.navbar-collapse').collapse('hide');
 });
-
 //function to offer differenting alert messages dependent on the checkbox status in conjunction with the submit button//
 function couponCode() {
   var checkBox = document.getElementById ("exampleCheck1")
