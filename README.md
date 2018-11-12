@@ -15,6 +15,8 @@ Please test the check box and submit button for Java Script alerts.
 
 In case it is not obvious the Hamburger has been replaced with Coffee Beans as a style choice for the collapsed version of the navbar
 
-Works as planned on mobile phones desktop and landscape view on ipad.  Having troubles with portrat view on ipad with margins hidden behind the navbar and navbar not collapsing correctly.  But only on the ipad.  I phone seems to work fine too. 
+Works as planned on mobile phones, desktop, and landscape view on iPad.  Having troubles with portrat view on ipad with margins hidden behind the navbar and navbar not collapsing correctly.  But only on the iPad and only in portrait.  iPhone seems to be working as planned. 
+
+Image in <h1> is showing up differently in iOS.  Need to look into CSS styling.
 
 
