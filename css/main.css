@@ -9,7 +9,6 @@ body {
     width: 100%;
     background-image: url("../img/donut.jpg") ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: #C34271;
