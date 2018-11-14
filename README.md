@@ -6,17 +6,12 @@ Normalize
 Bootstrap 
 JQuery
 
+In case it is not obvious the Hamburger has been replaced with Coffee Beans as a style choice for the collapsed version of the navbar.
+
 JQuery is being used to auto collapse the navbar in smaller media screens
-JavaScript is being used to offer two different alert messages if the checkbox is checked or not
+JavaScript is being used to offer two different alert messages and move the user to a new page if check box is clicked or not.  Please test submiting the form with and without checking the checkbox.
 
 Divs with the "first, second and contact -container" class responsive 
 
-Please test the check box and submit button for Java Script alerts.
-
-In case it is not obvious the Hamburger has been replaced with Coffee Beans as a style choice for the collapsed version of the navbar
-
-Works as planned on mobile phones, desktop, and landscape view on iPad.  Having troubles with portrat view on ipad with margins hidden behind the navbar and navbar not collapsing correctly.  But only on the iPad and only in portrait.  iPhone seems to be working as planned. 
-
-Image in h1 is showing up differently in iOS.  Need to look into CSS styling.
-
+Chrome Dev Tools says that navbar is collapsing correctly however, iPad and iPhones do react correctly in real life.  Looking for a fix.  Works as planned on all other devices.   
 
